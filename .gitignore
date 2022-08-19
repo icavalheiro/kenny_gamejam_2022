@@ -465,3 +465,8 @@ export_presets.cfg
 # Mono-specific ignores (Godot)
 .mono/
 data_*/
+
+# Unity-specific ignores
+Library/
+UserSettings/
+Temp/
