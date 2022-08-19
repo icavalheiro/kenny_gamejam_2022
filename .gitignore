@@ -457,6 +457,7 @@ $RECYCLE.BIN/
 .import/
 export.cfg
 export_presets.cfg
+!Build/*
 
 # Imported translations (automatically generated from CSV files) (Godot)
 *.translation
