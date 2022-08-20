@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Scripts/WorldSpawner.cs" type="Script" id=1]
+
+[sub_resource type="CubeMesh" id=1]
 
 [node name="Main" type="Spatial"]
 
@@ -14,3 +16,15 @@ script = ExtResource( 1 )
 transform = Transform( 0.868666, -0.0382331, -0.493922, 0.490637, 0.204299, 0.847075, 0.0685216, -0.978162, 0.196226, 0, -5.0878, 0 )
 light_color = Color( 1, 0.972549, 0.741176, 1 )
 light_bake_mode = 0
+
+[node name="HUD" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TestTexture" type="TextureRect" parent="HUD"]
+unique_name_in_owner = true
+margin_right = 304.0
+margin_bottom = 168.0
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+mesh = SubResource( 1 )
