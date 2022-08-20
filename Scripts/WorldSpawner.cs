@@ -18,8 +18,8 @@ public class WorldSpawner : Node
         GD.Print("0");
         CreateTilesetModelsHashtable();
         GD.Print("1");
-        // Task.Run(SpawnWorld);
-        SpawnWorld();
+        Task.Run(SpawnWorld);
+        // SpawnWorld();
         GD.Print("2");
     }
 
@@ -83,6 +83,7 @@ public class WorldSpawner : Node
             var scene = _tileScenes[selectedNeighbourModel.Name];
             var tileInstance = scene.Instance<Tile>();
             AddChild(tileInstance);
+            tileInstance.Model = selectedNeighbourModel;
             tileInstance.Translate(tile.Translation + new Vector3(x, 0, z));
             _spawnNeighboursQueue.Add(tileInstance);
             return tileInstance;
