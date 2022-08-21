@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/scratch_005.ogg-4a88f25b915964808c17e65e028c1605.oggstr"
+
+[deps]
+
+source_file="res://KenneyAssets/Audio/Interface/scratch_005.ogg"
+dest_files=[ "res://.import/scratch_005.ogg-4a88f25b915964808c17e65e028c1605.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

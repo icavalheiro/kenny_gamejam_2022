@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/click_005.ogg-411180ebc0a7683755ce9b50f7472665.oggstr"
+
+[deps]
+
+source_file="res://KenneyAssets/Audio/Interface/click_005.ogg"
+dest_files=[ "res://.import/click_005.ogg-411180ebc0a7683755ce9b50f7472665.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

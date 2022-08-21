@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/diceThrow3.ogg-c9292bef068a1dd64dc1d132a699b813.oggstr"
+
+[deps]
+
+source_file="res://KenneyAssets/Audio/Cassino/diceThrow3.ogg"
+dest_files=[ "res://.import/diceThrow3.ogg-c9292bef068a1dd64dc1d132a699b813.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

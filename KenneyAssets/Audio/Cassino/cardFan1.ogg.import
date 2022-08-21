@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cardFan1.ogg-9a12808dbd26a71f403fa0c7bc293d1b.oggstr"
+
+[deps]
+
+source_file="res://KenneyAssets/Audio/Cassino/cardFan1.ogg"
+dest_files=[ "res://.import/cardFan1.ogg-9a12808dbd26a71f403fa0c7bc293d1b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

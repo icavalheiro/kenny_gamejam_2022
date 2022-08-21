@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/chipsHandle4.ogg-2bc8e168e6f29a0b2d0da7358ea60aa0.oggstr"
+
+[deps]
+
+source_file="res://KenneyAssets/Audio/Cassino/chipsHandle4.ogg"
+dest_files=[ "res://.import/chipsHandle4.ogg-2bc8e168e6f29a0b2d0da7358ea60aa0.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

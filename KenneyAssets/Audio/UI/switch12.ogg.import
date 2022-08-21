@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/switch12.ogg-cd191580aa4965970001dd2cf570957e.oggstr"
+
+[deps]
+
+source_file="res://KenneyAssets/Audio/UI/switch12.ogg"
+dest_files=[ "res://.import/switch12.ogg-cd191580aa4965970001dd2cf570957e.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
